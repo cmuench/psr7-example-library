@@ -1,0 +1,17 @@
+{
+  "name": "acme/my-super-php-library",
+  "description": "Pseudo demo library to demonstrate the usage of the HTTP client and PSR-7",
+  "license": "MIT",
+  "require": {
+    "php-http/client-implementation": "^1.0",
+    "guzzlehttp/psr7": "^1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Acme\\MyLibrary\\": "src"
+    }
+  },
+  "require-dev": {
+    "php-http/curl-client": "^1.7"
+  }
+}
